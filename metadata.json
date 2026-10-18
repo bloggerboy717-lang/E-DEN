@@ -1,0 +1,6 @@
+{
+  "name": "E-DEN",
+  "description": "Premium AI assistant powered by Google Gemini API featuring a glowing 3D-style planet orb, streaming chat, and customizable themes",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Aura -->
+    <path
+        android:pathData="M54,26A28,28 0 1,0 54,82A28,28 0 1,0 54,26Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="28">
+                <item android:offset="0.0" android:color="#006366F1" />
+                <item android:offset="0.6" android:color="#26818CF8" />
+                <item android:offset="1.0" android:color="#00C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Planetary Back Ring (drawn behind orb) -->
+    <path
+        android:pathData="M27,51 C32,45 76,45 81,51"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="27"
+                android:startY="45"
+                android:endX="81"
+                android:endY="51">
+                <item android:offset="0.0" android:color="#40818CF8" />
+                <item android:offset="0.5" android:color="#80A78BFA" />
+                <item android:offset="1.0" android:color="#4038BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main Glowing Orb Sphere -->
+    <path
+        android:pathData="M54,34A20,20 0 1,0 54,74A20,20 0 1,0 54,34Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="48"
+                android:centerY="46"
+                android:gradientRadius="20">
+                <item android:offset="0.0" android:color="#E0E7FF" />
+                <item android:offset="0.25" android:color="#818CF8" />
+                <item android:offset="0.75" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#1E1B4B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Atmospheric Swirl Highlight -->
+    <path
+        android:pathData="M40,46 C48,42 60,45 68,52 C64,53 54,49 40,46 Z"
+        android:fillColor="#50C7D2FE" />
+    <path
+        android:pathData="M37,56 C46,58 60,62 67,59 C61,63 48,62 37,56 Z"
+        android:fillColor="#35A5B4FC" />
+
+    <!-- Planetary Front Ring (drawn over orb) -->
+    <path
+        android:pathData="M27,51 C33,59 75,59 81,51"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="27"
+                android:startY="51"
+                android:endX="81"
+                android:endY="59">
+                <item android:offset="0.0" android:color="#A78BFA" />
+                <item android:offset="0.5" android:color="#E0E7FF" />
+                <item android:offset="1.0" android:color="#38BDF8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central AI Core Star Accent -->
+    <path
+        android:pathData="M48,46 L50,42 L52,46 L56,48 L52,50 L50,54 L48,50 L44,48 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
